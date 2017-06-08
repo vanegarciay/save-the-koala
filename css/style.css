@@ -2,3 +2,31 @@
 wood brown: A89F68;
 army green: 41521F;
 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.seccion_bienvenida {
+    background-image: url("../img/portada.jpg");
+}
+
+.seccion_tercera {
+    background-color: #A89F68;
+}
+
+.seccion_cuarta {
+    background-image: url("../img/all.jpg");
+}
+
+.seccion_seis {
+    background-color: #A89F68;
+}
+
+footer {
+    background-color: #41521F;
+}
+
+nav, nav div, nav ul li a {
+    color: white;
+}
