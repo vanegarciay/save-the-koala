@@ -5,18 +5,69 @@ army green: 41521F;
 * {
     margin: 0;
     padding: 0;
+    font-family:'Lato', sans-serif;
 }
 
 .seccion_bienvenida {
     background-image: url("../img/portada.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+#koala_header {
+    padding-top: 230px;
+    color: white;
+}
+
+#koala_header h1 {
+    font-weight: bold;
+}
+#koala_header p {
+    font-size: 15px;
+}
+
+.btn-default {
+    background-color: #41521F;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 1.3em;
+
+}
+
+nav, nav div, nav ul li a {
+    color: white;
+}
+
+nav div {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+nav ul li a {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+}
+
+#imagen_sec_2 {
+    width: 100%;
+}
 .seccion_tercera {
     background-color: #A89F68;
 }
 
+#cosita {
+    width: 100%;
+}
+
 .seccion_cuarta {
     background-image: url("../img/all.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .seccion_seis {
@@ -27,6 +78,3 @@ footer {
     background-color: #41521F;
 }
 
-nav, nav div, nav ul li a {
-    color: white;
-}

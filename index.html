@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Save the Koala</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <!--espacion para la tipografia -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -12,117 +12,143 @@
     <!-- Seccion bienvenida-->
     <section class="seccion_bienvenida container-fluid">
         <div class="container">
+            <nav class="navbar-default">
+                <div class="col-md-4">Save The Koala</div>
+                <ul class="nav nav-pills pull-right col-md-4">
+                    <li><a href="#">Foundation</a></li>
+                    <li><a href="#">Koalas</a></li>
+                    <li><a href="#">Donate</a></li>
+                </ul>
+            </nav>
             <div class="row">
-                <nav class="navbar-default">
-                    <div class="col-md-4">Save The Koala</div>
-                    <ul class="nav nav-pills pull-right col-md-4">
-                        <li><a href="#">Foundation</a></li>
-                        <li><a href="#">Koalas</a></li>
-                        <li><a href="#">Donate</a></li>
-                    </ul>
-                </nav>
-                <nav class="col-md-4">
+                <div class="col-md-4" id="koala_header">
                     <h1>Save The Koala</h1>
                     <p>Koalas are declining in rapid numbers because the trees where they spend a majority of their time are being quickly chopped down. Activists need to take action to try and protect these animals’ habitats so they do not become a thing of the past.</p>
-                    <button>See more</button>
-                </nav>
+                    <button class="btn btn-default">See more</button>
+                </div>
             </div>
         </div>
     </section>
     <!-- seccion 2-->
     <section>
-        <div>
-            <img src="img/tres.jpg">
-        </div>
-        <div>
-            <h1>FOUNDATION INFORMATION</h1>
-            <h2>Koalas are cute but they're also under threat in their Aussie homeland!</h2>
-            <p>Koalas are well-known as an icon of Australia and many people who visit Australia as tourists hope to see and hold a koala. But it's less well known that koalas in the wild are facing unprecedented pressure as their trees are cleared, existing habitat becomes more vulnerable and isolated and more roads bisect their territories resulting in more koalas being run over.</p>
-        </div>
-        <div>
-            <h3>The Australian Koala Foundation</h3>
-            <p>AKF is the organisation dedicated to ‘saving the koala’. The AKF’s mission is to achieve the long-term conservation of koalas and their habitat and to diminish current and future threats to koalas in the wild. <a href="#">See more</a></p>
-        </div>
-        <div>
-            <h3>AKF Vision</h3>
-            <p>The AKF’s vision includes a National Koala Act to provide solutions for managing koalas across all land tenures and setting a national standard for mapping koala habitat across its range so that conservation efforts on the ground can be maximised.<a href="#">See more</a></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/tres.jpg" id="imagen_sec_2">
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>FOUNDATION INFORMATION</h1>
+                            <h2>Koalas are cute but they're also under threat in their Aussie homeland!</h2>
+                            <p>Koalas are well-known as an icon of Australia and many people who visit Australia as tourists hope to see and hold a koala. But it's less well known that koalas in the wild are facing unprecedented pressure as their trees are cleared, existing habitat becomes more vulnerable and isolated and more roads bisect their territories resulting in more koalas being run over.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>The Australian Koala Foundation</h3>
+                            <p>AKF is the organisation dedicated to ‘saving the koala’. The AKF’s mission is to achieve the long-term conservation of koalas and their habitat and to diminish current and future threats to koalas in the wild. <a href="#">See more</a></p>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>AKF Vision</h3>
+                            <p>The AKF’s vision includes a National Koala Act to provide solutions for managing koalas across all land tenures and setting a national standard for mapping koala habitat across its range so that conservation efforts on the ground can be maximised.<a href="#">See more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- seccion 3-->
     <section class="seccion_tercera">
-        <div>
-            <h1>EASY HELP</h1>
-            <h2>Save Koalas From Possible Extinction!</h2>
-            <p>Loss of koala habitat is the major threat facing koalas today. Since white settlement of Australia, roughly 80% of the koala’s habitat has been destroyed and of what remains, most occurs on privately owned land and almost none is protected.</p>
-            <button>Read more</button>
-        </div>
-        <div>
-            <img src="img/cosita.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>EASY HELP</h1>
+                    <h2>Save Koalas From Possible Extinction!</h2>
+                    <p>Loss of koala habitat is the major threat facing koalas today. Since white settlement of Australia, roughly 80% of the koala’s habitat has been destroyed and of what remains, most occurs on privately owned land and almost none is protected.</p>
+                    <button class="btn btn-default">Read more</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/cosita.jpg" id="cosita">
+                </div>
+            </div>
         </div>
     </section>
     <!-- seccion 4 -->
     <section class="seccion_cuarta">
-        <div>
-            <h1>HELP KOALAS</h1>
-            <h2>“No Tree... No Me”</h2>
-            <p>Dick Marks, AKF’s creative supporter</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-6">
+                    <h1>HELP KOALAS</h1>
+                    <h2>“No Tree... No Me”</h2>
+                    <p>Dick Marks, AKF’s creative supporter</p>
+                </div>
+            </div>
         </div>
     </section>
     <!-- seccion seis -->
     <section>
-        <h1>It’s not hard to see how we can help.</h1>
-        <div>
-            <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
-            <p>There are many people who are working very hard to achieve the conservation of the koala and you can join them by visiting www.savethekoala.com.</p>
-        </div>
-        <div>
-            <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-            <p>The only way to save koalas is to save their habitat, the eucalyptus forests where they live, and which they must have to survive. This is what the Australian Koala Foundation is trying to achieve.</p>
-        </div>
-        <div>
-            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-            <p>But they can't do it alone and they need the help of people like you. You may think that just one person cannot make any difference in helping koalas or in helping our environment generally, but if each person does even one little thing to help, it can add up to a lot of help.</p>
+        <div class="container">
+            <h1>It’s not hard to see how we can help.</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                    <p>There are many people who are working very hard to achieve the conservation of the koala and you can join them by visiting www.savethekoala.com.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                    <p>The only way to save koalas is to save their habitat, the eucalyptus forests where they live, and which they must have to survive. This is what the Australian Koala Foundation is trying to achieve.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-paw" aria-hidden="true"></i>
+                    <p>But they can't do it alone and they need the help of people like you. You may think that just one person cannot make any difference in helping koalas or in helping our environment generally, but if each person does even one little thing to help, it can add up to a lot of help.</p>
+                </div>
+            </div>
         </div>
     </section>
     <!-- seccion seis -->
     <section class="seccion_seis">
-        <h1>It's not hard to see how we can help.</h1>
-        <div>
-            <h2>PESONAL</h2>
-            <p>$ 19 /AUD</p>
-            <ul>
-                <li>Save 1 Koala per month</li>
-                <li>1 T-shirt</li>
-                <li>1 visits per month</li>
-                <li>PublicAPI acces</li>
-            </ul>
-            <button>DONATE</button>
-        </div>
-        <div>
-            <h2>GROUPS</h2>
-            <p>$ 29 /AUD</p>
-            <ul>
-                <li>Save 2 Koala per month</li>
-                <li>2 T-shirt</li>
-                <li>2 visits per month</li>
-                <li>PublicAPI acces</li>
-            </ul>
-            <button>DONATE</button>
-        </div>
-        <div>
-            <h2>COMPANIES</h2>
-            <p>$ 59 /AUD</p>
-            <ul>
-                <li>Save 3 Koala per month</li>
-                <li>3 T-shirt</li>
-                <li>3 visits per month</li>
-                <li>PublicAPI acces</li>
-            </ul>
-            <button>DONATE</button>
+        <div class="container">
+            <h1>It's not hard to see how we can help.</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>PESONAL</h2>
+                    <p>$ 19 /AUD</p>
+                    <ul>
+                        <li>Save 1 Koala per month</li>
+                        <li>1 T-shirt</li>
+                        <li>1 visits per month</li>
+                        <li>PublicAPI acces</li>
+                    </ul>
+                    <button class="btn btn-default">DONATE</button>
+                </div>
+                <div class="col-md-4">
+                    <h2>GROUPS</h2>
+                    <p>$ 29 /AUD</p>
+                    <ul>
+                        <li>Save 2 Koala per month</li>
+                        <li>2 T-shirt</li>
+                        <li>2 visits per month</li>
+                        <li>PublicAPI acces</li>
+                    </ul>
+                    <button class="btn btn-default">DONATE</button>
+                </div>
+                <div class="col-md-4">
+                    <h2>COMPANIES</h2>
+                    <p>$ 59 /AUD</p>
+                    <ul>
+                        <li>Save 3 Koala per month</li>
+                        <li>3 T-shirt</li>
+                        <li>3 visits per month</li>
+                        <li>PublicAPI acces</li>
+                    </ul>
+                    <button class="btn btn-default">DONATE</button>
+                </div>
+            </div>
         </div>
     </section>
     <!-- footer -->
-    <footer class="container-fluid">
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -156,5 +182,6 @@
             </div>
         </div>
     </footer>
+    <script src="https://use.fontawesome.com/1625bb79ec.js"></script>
 </body>
 </html>
