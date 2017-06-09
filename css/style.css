@@ -43,6 +43,11 @@ army green: 41521F;
     opacity: 0.7;
 }
 
+nav {
+    padding-top: 1em;
+    text-shadow: 0 0 1em #000;
+}
+
 nav, nav div, nav ul li a {
     color: white;
 }
@@ -56,6 +61,22 @@ nav ul li a {
     font-weight: bold;
     font-size: 1.2em;
     color: white;
+}
+
+#contenedor-menu-responsive {
+    display: none;
+}
+
+#contenedor-menu-responsive ul, #contenedor-menu-responsive ul li, #contenedor-menu-responsive ul li a {
+    text-align: center;
+    width: 100%;
+}
+
+#barra {
+    border: 1px solid #aaa;
+    padding: 0.1em 0.4em;
+    border-radius: 0.2em;
+    cursor: pointer;
 }
 
 #imagen_sec_2 {
@@ -74,7 +95,7 @@ nav ul li a {
 /*SECCION TERCERA */
 .seccion_tercera {
     background-color: #A89F68;
-    height: 550px;
+    padding: 5em 0;
 }
 
 .cosita_column {
@@ -129,8 +150,7 @@ nav ul li a {
 
 .seccion_quinta {
     text-align: center;
-    height: 400px;
-    padding: 60px;
+    padding: 5em 0;
 }
 
 .icons, i.fa.icons {
@@ -173,7 +193,7 @@ section.seccion_seis .price {
 span.price_sign {
     position: absolute;
     top: 1em;
-    left: 25%;
+    left: 30%;
 }
 span.price_sign, span.price_type {
     font-size: 0.3em;
