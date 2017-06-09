@@ -13,6 +13,7 @@ army green: 41521F;
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #koala_header {
@@ -31,10 +32,15 @@ army green: 41521F;
     background-color: #41521F;
     color: white;
     border: none;
-    font-weight: bold;
     padding: 10px 20px;
-    font-size: 1.3em;
+}
 
+.btn-default:hover {
+    background-color: #41521F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    opacity: 0.7;
 }
 
 nav, nav div, nav ul li a {
@@ -55,26 +61,153 @@ nav ul li a {
 #imagen_sec_2 {
     width: 100%;
 }
+
+/* SECCION SEGUNDA */
+.info {
+    margin-top: 13em;
+}
+
+#seccion_segunda {
+    padding-bottom: 90px;
+}
+
+/*SECCION TERCERA */
 .seccion_tercera {
     background-color: #A89F68;
+    height: 550px;
+}
+
+.cosita_column {
+    margin-top: 80px;
+}
+.column_koala h3 {
+    color: #A89F68;
+}
+
+.column_koala p a {
+    color: #A89F68;
+}
+
+.seccion_tercera h1 {
+    font-weight: bold;
+    color: white;
+}
+
+.seccion_tercera h2 {
+    font-weight: bold;
+    color: #415235;
+    font-size: 1.5em;
+}
+
+.seccion_tercera p {
+    color: white;
+    font-size: 1.1em;
 }
 
 #cosita {
     width: 100%;
+    border: 10px solid white;
+    margin-right: 50px;
 }
 
+/*SECCION CUARTA */
 .seccion_cuarta {
     background-image: url("../img/all.jpg");
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
+    padding-top: 80px;
 }
 
-.seccion_seis {
+.no_tre {
+    font-weight: bold;
+    color: white;
+}
+
+/*SECCION QUINTA*/
+
+.seccion_quinta {
+    text-align: center;
+    height: 400px;
+    padding: 60px;
+}
+
+.icons, i.fa.icons {
+    color: #A89F68;
+    font-size: 4em;
+    padding: 20px;
+}
+
+/*SECCION SEXTA */
+
+section.seccion_seis {
     background-color: #A89F68;
+    text-align: center;
+    padding: 5em 0;
 }
 
+section.seccion_seis h1.h_dos {
+    color: #41521F;
+}
+
+section.seccion_seis ul {
+    list-style-type: none;
+}
+
+section.seccion_seis ul li {
+    border-bottom: 1px solid white;
+    padding: 1em;
+}
+
+section.seccion_seis ul :last-child {
+    border-bottom: 0;
+}
+
+section.seccion_seis .price {
+    color: #fff;
+    font-size: 4em;
+    position: relative;
+}
+
+span.price_sign {
+    position: absolute;
+    top: 1em;
+    left: 25%;
+}
+span.price_sign, span.price_type {
+    font-size: 0.3em;
+}
+
+/* FOOTER */
 footer {
     background-color: #41521F;
+    padding: 5em;
 }
 
+footer h1, footer ul li, footer a {
+    color: #A89F68;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer ul {
+    margin-top: 20px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+/* COMMONS */
+#hs_tamano {
+    font-size: 0.9em;
+}
+
+.h_dos {
+    font-size: 2em;
+    font-weight: bold;
+    color: #A89F68;
+}
